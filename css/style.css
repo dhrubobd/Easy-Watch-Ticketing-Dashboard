@@ -32,6 +32,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6,button,input,textarea{
+  color: #000000;
   font-family: 'Poppins', sans-serif !important;
   font-weight: normal;
 }
@@ -69,14 +70,32 @@ footer{
 .bg-primary{
   background-color: #1447fc !important;
 }
+.rounded-box{
+  border-radius: 20px;
+  background-color: #ffffff;
+  min-height: 200px;
+}
+.dashboard-stats{
+  font-size: 32px;
+  padding: 40px 20px;
+}
+.dashboard-stats h3{
+  font-size: 36px;
+}
 .ticket-list{
+  min-height: 700px;
+}
+.ticket-list h2{
+  font-size: 40px;
+}
+.ticket-list .ticket{
   padding: 15px 50px;
   font-size: 20px;
 }
-.ticket-list:hover{
+.ticket-list .ticket:hover{
   background-color: #e1e1e1;
 }
 #dashboard-landing{
   background-color: #6cb3fb;
-  padding: 50px;
+  padding: 70px 50px;
 }
