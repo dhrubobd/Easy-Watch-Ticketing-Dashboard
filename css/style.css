@@ -109,8 +109,13 @@ footer{
 .ticket-list .ticket:hover{
   background-color: #e1e1e1;
 }
-#dashboard-landing{
+#ticket{
   background-color: #6cb3fb;
+  padding: 70px 50px;
+}
+
+#employee{
+  background-color: #d9d9d9;
   padding: 70px 50px;
 }
 
