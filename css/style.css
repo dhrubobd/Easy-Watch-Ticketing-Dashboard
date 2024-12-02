@@ -189,10 +189,40 @@ label{
   font-size: 20px;
   line-height: 50px;
 }
+#user-login{
+  background-color: #d9d9d9;
+  padding: 50px;
+}
+#login-area{
+  max-width: 1200px;
+  margin: auto;
+}
+#login-area form{
+  background-color: #ffffff;
+  padding: 50px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+}
+#login-area label{
+  font-size: 16px;
+}
+#login-area form h2{
+  font-weight: 700;
+  font-size: 36px;
+}
+#login-area form h2, #login-area form p{
+  text-align: center;
+}
+.login-background img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  max-width: 100%;
+}
 #search .form-control{
   border-radius: 5px !important;
   padding: 7px 10px 7px 60px !important;
-  background: #4563ff url(/images/search-icon.png) no-repeat;
+  background: #4563ff url(../images/search-icon.png) no-repeat !important;
   color: white !important;
   border: none;
 }
