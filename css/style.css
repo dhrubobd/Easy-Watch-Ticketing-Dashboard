@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @import "sidebar.css";
 @import "progress.css";
 @import "dropdownmenu.css";
@@ -25,11 +27,13 @@
 
 body {
   background:#ffffff;
-  font-size: 14px;
+  color: #000000;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6,button,input,textarea{
   font-family: 'Poppins', sans-serif !important;
+  font-weight: normal;
 }
 .center-screen {
   display: flex;
@@ -55,6 +59,7 @@ a:hover {
   cursor: pointer;
 }
 footer{
+  font-family: "Inter", sans-serif;
   margin-left: 230px;
 }
 
@@ -64,7 +69,14 @@ footer{
 .bg-primary{
   background-color: #1447fc !important;
 }
+.ticket-list{
+  padding: 15px 50px;
+  font-size: 20px;
+}
+.ticket-list:hover{
+  background-color: #e1e1e1;
+}
 #dashboard-landing{
   background-color: #6cb3fb;
-  padding: 20px;
+  padding: 50px;
 }
