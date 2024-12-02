@@ -59,6 +59,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+label{
+  color: #000000;
+}
 footer{
   font-family: "Inter", sans-serif;
   margin-left: 230px;
@@ -69,6 +72,18 @@ footer{
 }
 .bg-primary{
   background-color: #1447fc !important;
+}
+.form-control{
+  color: #000;
+  border-radius: 20px !important;
+  padding: 18px 30px;
+}
+.form-control:focus {
+  border-color: #aeb2e9;
+  box-shadow: 0 0 0 2px #aeb2e9;
+}
+.form-group{
+  margin-bottom: 40px;
 }
 .rounded-box{
   border-radius: 20px;
@@ -117,5 +132,14 @@ footer{
 #employee{
   background-color: #d9d9d9;
   padding: 70px 50px;
+}
+
+#employee form{
+  margin: auto 10%;
+}
+
+#employee label{
+  font-weight: normal;
+  font-size: 20px;
 }
 
