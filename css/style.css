@@ -142,8 +142,15 @@ footer{
   font-size: 20px;
 }
 
+#employee h1{
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 @media (min-width: 340px) and (max-width: 991.98px) {
   .rounded-button{
     margin-top: 20px;
   }
 }
+
