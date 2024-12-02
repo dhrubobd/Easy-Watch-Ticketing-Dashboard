@@ -111,17 +111,17 @@ footer{
 .dashboard-stats h3{
   font-size: 36px;
 }
-.ticket-list{
+.ticket-list,.employee-list{
   min-height: 700px;
 }
-.ticket-list h2{
+.ticket-list h2,.employee-list h2{
   font-size: 40px;
 }
-.ticket-list .ticket{
+.ticket-list .ticket,.employee-list .employee{
   padding: 15px 50px;
   font-size: 20px;
 }
-.ticket-list .ticket:hover{
+.ticket-list .ticket:hover,.employee-list .employee:hover{
   background-color: #e1e1e1;
 }
 #ticket{
