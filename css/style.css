@@ -65,14 +65,21 @@ label{
 footer{
   font-family: "Inter", sans-serif;
   margin-left: 230px;
+  background-color: #ffffff;
 }
-
+.front-end footer{
+  margin-left: 0px;
+}
 .swal2-styled:focus{
   box-shadow: none !important;
 }
 .bg-primary{
   background-color: #1447fc !important;
 }
+.front-end .navbar>.container,.front-end .navbar>.container-fluid,.front-end .navbar>.container-sm,.front-end .navbar>.container-md, .navbar>.container-lg, .navbar>.container-xl, .navbar>.container-xxl{
+  display: inline;
+}
+
 .form-control{
   color: #000;
   border-radius: 20px !important;
@@ -95,7 +102,6 @@ footer{
   border: none;
   border-radius: 30px;
   color: #ffffff;
-  float: right;
   font-size: 20px;
   padding: 15px 30px;
 }
@@ -137,7 +143,7 @@ footer{
   margin: auto 10%;
 }
 
-#employee label{
+label{
   font-weight: normal;
   font-size: 20px;
 }
@@ -146,6 +152,52 @@ footer{
   font-size: 40px;
   margin-bottom: 50px;
   text-align: center;
+}
+/*Customer*/
+#customer-profile{
+  background-color: #d9d9d9;
+  padding: 50px 20px;
+}
+#customer-profile form{
+  margin: auto 10%;
+}
+.profile-picture{
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+.profile-picture img{
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.profile-picture button{
+  margin-bottom: 20px;
+}
+.profile-menu{
+  background-color: #949191;
+  padding: 30px;
+}
+.profile-menu li{
+  padding-left: 40px;
+}
+.profile-menu ::marker{
+  color: #ffffff;
+}
+.profile-menu a{
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 50px;
+}
+#search .form-control{
+  border-radius: 5px !important;
+  padding: 7px 10px 7px 60px !important;
+  background: #4563ff url(/images/search-icon.png) no-repeat;
+  color: white !important;
+  border: none;
+}
+#search input::placeholder {
+  color: white !important;
 }
 
 @media (min-width: 340px) and (max-width: 991.98px) {
