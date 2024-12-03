@@ -67,6 +67,9 @@ footer{
   margin-left: 230px;
   background-color: #ffffff;
 }
+footer .link-secondary{
+  padding: 0 50px;
+}
 .front-end footer{
   margin-left: 0px;
 }
@@ -287,7 +290,11 @@ label{
 #search input::placeholder {
   color: white !important;
 }
-
+@media (max-width: 770px) {
+  footer .link-secondary{
+    padding: 0 10px;
+  }
+}
 @media (min-width: 340px) and (max-width: 991.98px) {
   .rounded-button{
     margin-top: 20px;
