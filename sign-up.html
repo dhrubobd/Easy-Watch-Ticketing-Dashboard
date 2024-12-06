@@ -3,9 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Customer Profile</title>
+    <title>User Signup Page</title>
     <link href="./images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
-    
     <link href="./css/bootstrap.css" rel="stylesheet" />
     <link href="./css/animate.min.css" rel="stylesheet" />
     <link href="./css/fontawesome.css" rel="stylesheet" />
@@ -68,65 +67,52 @@
         </div>
     </nav>
     
-    <div class="content-fluid" id="customer-profile">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 animated fadeIn">
-                    <div class="profile-picture">
-                        <img src="images/default.jpg" alt="" srcset="">
-                        <button class="rounded-button">Update Profile Picture</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-5">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
-                    <div class="profile-menu">
-                        <ul>
-                            <li><a href="#">General Informations</a></li>
-                            <li><a href="#">Update Password</a></li>
-                            <li><a href="#">Ticket History</a></li>
-                            <li><a href="#">Favorite Halls</a></li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="content-fluid" id="user-registration">
+        <div id="registration-area">
+            <div class="row g-0">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn">
                     <form>
-                        <div class="form-group row">
-                            <div class="col-xl-3 col-xl-3  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <label for="firstName" >First Name :</label>
+                        <h2>Easy Watch Ticketing</h2>
+                        <p>Login into your account</p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 animated fadeIn">
+                                <div class="form-group">
+                                    <label for="fName" >First Name :</label><br>
+                                    <input type="text" class="form-control" id="firstName" placeholder="Your First Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email" >Email Id :</label><br>
+                                    <input type="email" class="form-control" id="Email" placeholder="yourname@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Password" >Your Password :</label><br>
+                                    <input type="password" class="form-control" id="Password" placeholder="">
+                                </div>
                             </div>
-                            <div class="col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <input type="text" class="form-control" id="inputName" placeholder="Sayed Masavi">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 animated fadeIn">
+                                <div class="form-group">
+                                    <label for="lName" >Last Name :</label><br>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Your Last Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Mobile" >Last Name :</label><br>
+                                    <input type="text" class="form-control" id="Mobile" placeholder="Your Mobile Number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Password" >Confirm Password :</label><br>
+                                    <input type="password" class="form-control" id="Password" placeholder="">
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <div class="col-xl-3 col-xl-3  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <label for="lastName" >Last Name :</label>
-                            </div>
-                            <div class="col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <input type="text" class="form-control" id="inputName" placeholder="Sayed Masavi">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-xl-3 col-xl-3  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <label for="Email" >Email :</label>
-                            </div>
-                            <div class="col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="sayedMasavi@gmail.com">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-xl-3 col-xl-3  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <label for="Mobile" >Mobile :</label>
-                            </div>
-                            <div class="col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn">
-                                <input type="text" class="form-control" id="inputMobile" placeholder="01271737778">
-                                <br><br>
-                                <button class="rounded-button">Update</button>
-                            </div>
-                        </div>
+                        <button class="auth-button">Signup</button>
                     </form>
                 </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn registration-background">
+                    <img class="mt-10" src="./images/sign-up.png" alt="" srcset="">
+                </div>
             </div>
+        </div>
     </div>
     <footer class="bg-white">
         <div class="container-fluid text-center p-3">

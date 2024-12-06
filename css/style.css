@@ -218,37 +218,37 @@ label{
   font-size: 20px;
   line-height: 50px;
 }
-#user-login{
+#user-login,#user-registration{
   background-color: #d9d9d9;
   padding: 50px;
 }
-#login-area{
+#login-area,#registration-area{
   max-width: 1280px;
   margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
 }
-#login-area form{
+#login-area form, #registration-area form{
   background-color: #ffffff;
-  padding: 50px 15px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  padding: 50px 20px;
   height: 100%;
 }
-#login-area label{
+#login-area label, #registration-area  label{
   font-size: 16px;
 }
-#login-area form h2{
+#login-area form h2, #registration-area form h2{
   font-weight: 500;
   font-size: 34px;
 }
-#login-area form h2, #login-area form p{
+#login-area form h2, #login-area form p,
+#registration-area form h2, #registration-area form p{
   text-align: center;
 }
-.login-background img{
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+.login-background img, .registration-background img{
   max-width: 100%;
 }
-#login-area .form-control{
+#login-area .form-control, #registration-area .form-control{
   border-radius: 8.08px !important;
   height: 50px;
   padding-left: 10px;
