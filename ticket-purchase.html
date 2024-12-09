@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Movie Gallery Page</title>
+    <link href="./images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    
+    <link href="./css/bootstrap.css" rel="stylesheet" />
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="./css/fontawesome.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/toastify.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="./css/jquery.dataTables.min.css" rel="stylesheet" />
+    
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.dataTables.min.js"></script>
+    <script src="./js/toastify-js.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</head>
+
+<body class="front-end">
+    
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top px-0 shadow-sm bg-primary" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6 col-2 animated fadeIn">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header01" aria-controls="header01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="header01">
+                        <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0 me-4">
+                            <li class="nav-item me-4"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item me-4"><a class="nav-link" href="#">Movies</a></li>
+                            <li class="nav-item me-4"><a class="nav-link" href="#">About</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-8 animated fadeIn text-center">
+                    <img class="m-auto" src="./images/Logo.png" alt="" srcset="">
+                </div>
+                <div id="search" class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-0 animated fadeIn d-none d-sm-block">
+                    <form class="form-inline my-2 my-lg-0 input-group">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Anything">
+                    </form>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-2 animated fadeIn">
+                    <div class="float-right h-auto d-flex">
+                        <div class="user-dropdown">
+                            <img class="icon-nav-img" src="./images/user.webp" alt=""/>
+                            <div class="user-dropdown-content ">
+                                <div class="mt-4 text-center">
+                                    <img class="icon-nav-img" src="./images/user.webp" alt=""/>
+                                    <h6>User Name</h6>
+                                    <hr class="user-dropdown-divider  p-0"/>
+                                </div>
+                                <a href="#" class="side-bar-item">
+                                    <span class="side-bar-item-caption">Logout</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="content-fluid">
+        <section id="ticket-purchase">
+
+        </section>
+    </div>
+    <footer class="bg-white">
+        <div class="container-fluid text-center p-3">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 animated fadeIn p-2">
+                    <img src="./images/logo.svg">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 animated fadeIn p-2">
+                    <ul class="d-flex flex-wrap justify-content-center align-items-center list-unstyled mb-4">
+                        <li><a class="link-secondary" href="#">Contact</a></li>
+                        <li><a class="link-secondary" href="#">Terms of Use</a></li>
+                        <li><a class="link-secondary" href="#">Privacy Policy</a></li>
+                        <li><a class="link-secondary" href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 animated fadeIn p-2">
+                    <div>
+                        <a class="d-inline-block me-4" href="#">
+                            <img src="./images/icon-fb.svg">
+                        </a>
+                        <a class="d-inline-block me-4" href="#">
+                            <img src="./images/icon-instagram.svg">
+                        </a>
+                        <a class="d-inline-block" href="#">
+                            <img src="./images/icon-twitter.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
