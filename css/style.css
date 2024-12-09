@@ -114,6 +114,11 @@ footer .link-secondary{
   font-size: 20px;
   padding: 15px 30px;
 }
+.delete-button{
+  background-color: #E60556 !important;
+}
+
+
 .auth-button{
   background-color: #1e2772;
   border: none;
