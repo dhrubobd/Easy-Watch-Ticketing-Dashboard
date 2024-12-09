@@ -55,3 +55,8 @@ $(document).ready(function() {
         ]
     });
 });
+
+function selectSeat(e){
+    e.classList.remove("available");
+    e.classList.add("select");
+}

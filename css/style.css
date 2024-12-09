@@ -349,6 +349,7 @@ label{
 #info p,#select-movie p{
   font-size: 20px;
 }
+/*Movie Gallery Page*/
 #movie-gallery{
   background: #202020;
   padding: 50px;
@@ -358,6 +359,47 @@ label{
 }
 #movie-gallery img:hover{
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+/*Ticket Purchase Page*/
+#ticket-purchase{
+  background: #000000 url(../images/ticket-purchase-bg.png) no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  padding: 10%;
+  text-align: center;
+}
+#ticket-status{
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+#seat-plan{
+  background: #AAB2B6;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 10px auto;
+}
+#seat-plan .seat{
+  color: #ffffff;
+  max-width: 120px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+#seat-plan .available{
+  background: #CBCD47;
+}
+#seat-plan .select{
+  background: #008315;
+}
+#seat-plan .unavailable{
+  background: #757569 !important;
 }
 @media (max-width: 770px) {
   footer .link-secondary{
@@ -370,6 +412,11 @@ label{
   }
   #info p,#select-movie p{
     font-size: 14px;
+  }
+  #seat-plan .seat{
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
   }
 }
 
