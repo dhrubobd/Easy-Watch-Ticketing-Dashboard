@@ -182,6 +182,21 @@ label{
   margin-bottom: 50px;
   text-align: center;
 }
+#movie-tickets{
+  background: #ffffff url(../images/ticket-movies-top.png) center top repeat-x;
+  padding: 70px 50px;
+}
+#movie-tickets h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.poster{
+  width: 100%;
+  border: 5px solid #949191;
+  margin: 0px auto;
+}
 /*Customer*/
 #customer-profile{
   background-color: #d9d9d9;
