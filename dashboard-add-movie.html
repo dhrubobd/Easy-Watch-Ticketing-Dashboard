@@ -79,10 +79,63 @@
     <div id="contentRef" class="content">
         <div class="container-fluid" id="movie-tickets">
             <div class="row" >
-                <div class="col-xl-12 col-xl-12  col-lg-12 col-md-12 col-sm-12 col-12 animated fadeIn">
-                    <h1 class="px-5 py-3">Add Movie</h1>
-                    
-                </div>
+                <form action="">
+                    <div class="col-xl-12 col-xl-12  col-lg-12 col-md-12 col-sm-12 col-12 animated fadeIn">
+                        <h1 class="px-5 py-3">Add Movie</h1>
+                        <div class="row">
+                            <div class="col-xl-4 col-xl-4  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
+                                <img class="poster" src="./images/default.jpg" alt="" srcset="" id="newPosterImg"><br><br>
+                                <input oninput="newPosterImg.src=window.URL.createObjectURL(this.files[0])" type="file" class="form-control" id="posterImg">
+                            </div>
+                            <div class="col-xl-8 col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 animated fadeIn px-sm-7">
+                                <div class="form-group row">
+                                    <div class="animated fadeIn">
+                                        <label for="staticMovieName" >Movie Name :</label>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <input type="text" class="form-control" id="inputMovieName" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="animated fadeIn">
+                                        <label for="staticMovieID" >Movie ID :</label>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <input type="text" class="form-control" id="inputMovieID" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="animated fadeIn">
+                                        <label for="staticMovieCategory" >Movie Category:</label>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="movieCategories" id="MovieCategory1" value="Sci-Fi">
+                                            <label class="form-check-label" for="MovieCategory1">Sci-Fi</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="movieCategories" id="MovieCategory2" value="Adventure">
+                                            <label class="form-check-label" for="MovieCategory2">Adventure</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="movieCategories" id="MovieCategory3" value="Comic">
+                                            <label class="form-check-label" for="MovieCategory3">Comic</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="movieCategories" id="MovieCategory4" value="Thriller">
+                                            <label class="form-check-label" for="MovieCategory4">Thriller</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-4  col-lg-4 col-md-12 col-sm-12 col-12 animated fadeIn">
+                                        <button class="rounded-button">Add New Movie</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

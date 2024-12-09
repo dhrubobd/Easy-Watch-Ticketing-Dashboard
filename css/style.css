@@ -192,6 +192,9 @@ label{
   margin-bottom: 50px;
   text-align: center;
 }
+#movie-tickets input{
+  background-color: #f3f3f3;
+}
 .poster{
   width: 100%;
   border: 5px solid #949191;
